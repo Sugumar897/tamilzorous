@@ -1,0 +1,73 @@
+.admin-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f0f8f5;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+
+.admin-container h1,
+.admin-container h2 {
+  text-align: center;
+  color: #2e8b57;
+  margin-bottom: 20px;
+}
+
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+}
+
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #2e8b57;
+  color: white;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.task-table tr:hover {
+  background-color: #e0f2e9;
+}
+
+
+.task-table select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  min-width: 150px;
+  cursor: pointer;
+  appearance: none;
+}
+
+
+/* Status colors (optional) */
+.task-table select option[value="Assigned"] { color: #2e8b57; }
+.task-table select option[value="Started"]  { color: #1f618d; }
+.task-table select option[value="Hold"]     { color: #f39c12; }
+.task-table select option[value="Completed"]{ color: #27ae60; }

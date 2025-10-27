@@ -1,0 +1,128 @@
+.admin-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f0f8f5;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+
+.admin-container h1,
+.admin-container h2 {
+  text-align: center;
+  color: #2e8b57;
+  margin-bottom: 20px;
+}
+
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 12px 15px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.task-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.task-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #256b45;
+}
+
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #2e8b57;
+  color: white;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.task-table tr:hover {
+  background-color: #e0f2e9;
+}
+
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+
+
+.task-form select {
+  width: 100%;           
+  padding: 12px 15px;    
+  font-size: 16px;       
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-bottom: 10px;   
+  box-sizing: border-box;
+  appearance: none;     
+}
+
+
+.task-form select:hover {
+  border-color: #2e8b57;
+}
+
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  margin-bottom: 15px;
+}
